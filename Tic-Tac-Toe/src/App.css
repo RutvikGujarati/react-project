@@ -1,0 +1,64 @@
+/* Apply a CSS reset to normalize default styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Improved styling for board rows */
+.board-row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+
+/* Improved styling for the board container */
+.board-container {
+  padding: 10% 0;
+  margin: 30px auto;
+  width: 300px; /* Set a fixed width for the container */
+  /* Add a border to the container */
+
+}
+
+
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Additional styles can be added here */
+.cont{
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  display: flex;
+  font-display: 10px;
+  align-items: center;
+  padding: 40px;
+ text-align: center;
+}
+
+.player{
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+ margin-right: auto;
+ text-align: center;
+
+}

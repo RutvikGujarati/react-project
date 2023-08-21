@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+// import { hot } from 'react-hot-loader';
 import "./App.css";
 import SearchIcon from "./search.svg";
 import MovieCard from "./MovieCard";
@@ -71,4 +72,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default (App);
